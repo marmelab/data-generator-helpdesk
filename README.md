@@ -1,6 +1,8 @@
 # data-generator-helpdesk
 
-Generates fake data for a helpdesk application (users, agents, products, tickets, etc).
+Generates fake data for a helpdesk application (users, agents, products, tickets, etc). Used in the [react-admin helpdesk demo](https://github.com/marmelab/react-admin-helpdesk).
+
+https://user-images.githubusercontent.com/99944/212743583-a4ee135f-f55b-4305-86c4-a3da1c49bb98.mov
 
 ## Adding To An Existing Project
 
