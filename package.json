@@ -1,8 +1,9 @@
 {
   "name": "data-generator-helpdesk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates fake data for a helpdesk application (users, agents, products, tickets, etc).",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "server": "json-server --watch index.js --host 0.0.0.0",
     "print": "node print.js",
