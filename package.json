@@ -1,0 +1,28 @@
+{
+  "name": "data-generator-helpdesk",
+  "version": "1.0.0",
+  "description": "Generates fake data for a helpdesk application (users, agents, products, tickets, etc).",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch index.js --host 0.0.0.0",
+    "print": "node print.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marmelab/data-generator-helpdesk.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marmelab/data-generator-helpdesk/issues"
+  },
+  "homepage": "https://github.com/marmelab/data-generator-helpdesk#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
+}
