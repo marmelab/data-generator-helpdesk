@@ -4,13 +4,17 @@ Generates fake data for a helpdesk application (users, agents, products, tickets
 
 https://user-images.githubusercontent.com/99944/212743583-a4ee135f-f55b-4305-86c4-a3da1c49bb98.mov
 
-## Adding To An Existing Project
+The customer and agent names are randomized, and the dates are generated not far in the past. This means that each new run of the generator will generate different (but fresh) data.
 
-Add the `data-generator-helpdesk` dependency, then require the data generator and execute it to get an object representing the data:
+## Installation
 
 ```sh
 $ npm install data-generator-helpdesk
 ```
+
+## Usage
+
+Require the data generator function and execute it to get an object representing the data:
 
 ```js
 const dataGenerator = require("data-generator-helpdesk");
@@ -108,6 +112,8 @@ docker run -it --rm -p 8080:3000 marmelab/data-generator-helpdesk
 ```
 
 Then browse to http://localhost:8080 to get the list of resources.
+
+## Development
 
 To build the docker image from the repo, run:
 
